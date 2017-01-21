@@ -3,7 +3,6 @@
 html {
   background-color: #202020;
 }
-
 body {
   border: 1px solid green;
   background-color: white;
@@ -12,13 +11,31 @@ body {
   padding: 0 4.688em;
  /* margin: 0 auto; */
 }
+h1, h2, h3 {
+  font-family: sans-serif;
+  font-weight: 900;
+  font-stretch: ultra-expanded;
+}
 h1 {
-  
+  font-size: 272%;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 170%;
+}
+h3 {
+  font-size: 130%;
+  font-size: 130%;
+  padding: .3em 0;
+}
+p {
+  font-size: 113%;
+  line-height: 145%;
 }
 img, iframe {
   width: 40em;
   height: 25em;
 }
 hr {
-
+margin: 3em 0 3em 0;
 }
