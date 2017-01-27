@@ -1,3 +1,4 @@
+/* _mobileFirst */
 html {
     font-size: 18px;
     line-height: 1rem;
@@ -105,4 +106,67 @@ article p:hover:after {
 
 footer {
     margin-bottom: 3rem;
+}
+
+/*______________________________________________________
+ 480px */
+@media screen and (min-width: 480px) {
+html {
+    font-size: 23px;
+    line-height: 1rem;
+    font-family: sans-serif;
+    color: #111;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+body {
+    border: 1px solid green;
+}
+header {
+    width: 95%; /* 460/480 */
+    height: 23%; /* 170/480 */
+}
+header h1 {
+    height: 93px;
+    line-height: 25em;  
+}
+img.cover-img {
+    display: block;
+    width: 170%;
+    max-width: 170%;
+    margin: 0 auto 1.5rem -35.25%;
+}
+article p span {
+    width: 167%;
+    display: block;
+    margin: 0 auto 2rem -35.25%;
+   /* font-size: 120.5%; */
+    line-height: 1.60em;
+}
+
+article p:after {
+    display: none;  /*article p:after: "Read More...";*/ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 720px */
+@media screen and (min-width: 720px) {  
+}
+/* 1080px */
+@media screen and (min-width: 1080px) {  
+}
+@media screen and (min-width: 1080px) {  
 }
