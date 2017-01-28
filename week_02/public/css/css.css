@@ -108,16 +108,11 @@ footer {
     margin-bottom: 3rem;
 }
 
+
 /* --- 480px media-query --- */
-@media screen and (min-width: 480px) and (max-width: 719px) {
+@media screen and (min-width: 480px) {
 html {
     font-size: 21.75px;
-    line-height: 1rem;
-    font-family: sans-serif;
-    color: #111;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 } 
 header {
     margin: 1.5rem auto 1.75rem auto;
@@ -129,7 +124,6 @@ header h1 {
     line-height: 25em;
 }
 article h1 {
-  border: 1px solid green;
   margin: 0 auto 0rem -31%;
   width: 160%;
   }
@@ -143,42 +137,100 @@ img.cover-img {
     margin: 0 auto 1.25rem -31%;
 }
 article p span {
-    width: 488px;
+    width: 460px;
     display: block;
     margin: 0 auto 1.1rem -31%;
    /* font-size: 120.5%; */
-    line-height: 1.60em;
+    line-height: 1.55em;
 }
 article p:after {
     display: none;  /*article p:after: "Read More...";*/ 
 }
-
-
-
-
-
-
-
-  
-/* --- 720px media-query --- */
-@media screen and (min-width: 720px) and 1079 {  
-html {
-    font-size: 23px;
-    line-height: 1rem;
-    font-family: sans-serif;
-    color: #111;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-} 
-  
-  
-  
-  
-  
-  
+footer {
+    margin: 0em 0em 5em .75em;
 }
-  
+ 
+/* --- 720px media-query --- */
+@media screen and (min-width: 720px) {  
+html {
+    font-size: 26px;
+} 
+header {
+    width: 97%;
+    height: 208px;
+    margin: 1.25rem auto 1.75rem auto;
+}
+header h1 { 
+    height: 68%;
+    line-height: 20em;
+}
+.clearfix {
+    border: 1px solid red;
+    width: 698px;
+    height: auto; 
+}
+article h1 {
+    width: 355px;
+    height: auto;
+    float: right;
+}
+article h2 {
+    width: 355px;
+    float: right;
+    margin: 55px -140px 0px 0px;
+}
+article h2:nth-last-of-type(12) {
+    border: 1px solid green;
+    width: 355px;
+    float: right;
+    margin: 10px -139px 0px 0px;
+}
+img.cover-img {
+    width: 318px;
+    float: left;
+    margin: 0; 
+}
+article p span {
+    border: 1px solid purple;
+    width: 355px;
+    float: right;
+    margin: 11px 0 0 0;
+   /* font-size: 120.5%; */
+    line-height: 1.55em;
+}
+article p:after {
+    display: none;  /*article p:after: "Read More...";*/ 
+}
+footer {
+    margin: 0 0em 4em 17em;
+}
+}
+ 
+/* --- 1080px media-query --- */
+@media screen and (min-width: 720px) {  
+html {
+    font-size: 26px;
+    background-color: #FF851B;    
+} 
+header {
+    width: 250px;
+    height: 208px;
+    margin: 0em auto 1.75rem 0em;
+}
+header h1 { 
+    height: 68%;
+    line-height: 20em;
+}
+header h2 {
+    margin: 5em 0 0 0;
+}
+footer {
+    clear: both;
+    margin: -432em 0 0 1.5em;
+}
+
+}
+}  
   
   
   
