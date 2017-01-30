@@ -110,7 +110,7 @@ footer {
 
 
 /* --- 480px media-query --- */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px){
 html {
     font-size: 21.75px;
 } 
@@ -149,6 +149,7 @@ article p:after {
 footer {
     margin: 0em 0em 5em .75em;
 }
+
  
 /* --- 720px media-query --- */
 @media screen and (min-width: 720px) {  
@@ -165,9 +166,13 @@ header h1 {
     line-height: 20em;
 }
 .clearfix {
-    border: 1px solid red;
     width: 698px;
     height: auto; 
+}
+img.cover-img {
+    width: 318px;
+    float: left;
+    margin: 0 0 2.25em 0; 
 }
 article h1 {
     width: 355px;
@@ -177,24 +182,29 @@ article h1 {
 article h2 {
     width: 355px;
     float: right;
-    margin: 55px -140px 0px 0px;
+    margin: 52px -140px 0px 0px;
 }
-article h2:nth-last-of-type(12) {
-    border: 1px solid green;
-    width: 355px;
-    float: right;
-    margin: 10px -139px 0px 0px;
+/* ADDED ID's TO HTML - COULD NOT FIGURE OUT (NONE OF THE PSEDUO CLASSERS WERE WORKNG FOR ME) */
+#two h2 {
+    margin: 106px -140px 0px 0px;
 }
-img.cover-img {
-    width: 318px;
-    float: left;
-    margin: 0; 
+#three h2 {
+    margin: 106px -140px 0px 0px;
+}
+#nine h2 {
+    margin: 106px -140px 0px 0px;
+}
+#ten h2 {
+    margin: 106px -140px 0px 0px;
+}
+#twelve h2 {
+    margin: 157px -140px 0px 0px;
 }
 article p span {
-    border: 1px solid purple;
-    width: 355px;
+    width: 20.5em;
     float: right;
-    margin: 11px 0 0 0;
+    margin: 1.5em 0 0 0;
+
    /* font-size: 120.5%; */
     line-height: 1.55em;
 }
@@ -202,19 +212,19 @@ article p:after {
     display: none;  /*article p:after: "Read More...";*/ 
 }
 footer {
-    margin: 0 0em 4em 17em;
+    margin: -.125em 0 4.875em 40%;
 }
-}
- 
+
+
 /* --- 1080px media-query --- */
-@media screen and (min-width: 720px) {  
+@media screen and (min-width: 1080px) {  
 html {
     font-size: 26px;
     background-color: #FF851B;    
-} 
+}
 header {
-    width: 250px;
-    height: 208px;
+    width: 300px;
+    height: 250px;
     margin: 0em auto 1.75rem 0em;
 }
 header h1 { 
@@ -222,28 +232,5 @@ header h1 {
     line-height: 20em;
 }
 header h2 {
-    margin: 5em 0 0 0;
-}
-footer {
-    clear: both;
-    margin: -432em 0 0 1.5em;
-}
-
-}
-}  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-/* 1080px */
-@media screen and (min-width: 1080px) {  
-}
-@media screen and (min-width: 1080px) {  
+    margin: 4em 0 0 0;
 }
