@@ -184,7 +184,7 @@ article h2 {
     float: right;
     margin: 52px -140px 0px 0px;
 }
-/* ADDED ID's TO HTML - COULD NOT FIGURE OUT (NONE OF THE PSEDUO CLASSERS WERE WORKNG FOR ME) */
+/* ADDED ID's TO HTML - COULD NOT FIGURE OUT (NONE OF THE PSEDUO CLASSES WERE WORKNG FOR ME) */
 #two h2 {
     margin: 106px -140px 0px 0px;
 }
@@ -225,7 +225,7 @@ html {
 header {
     width: 300px;
     height: 250px;
-    margin: 0em auto 1.75rem 0em;
+    margin: 0em 6em 1.75rem 0em;
 }
 header h1 { 
     height: 68%;
@@ -233,4 +233,33 @@ header h1 {
 }
 header h2 {
     margin: 4em 0 0 0;
+}
+
+
+article p {
+    width: 0%;
+    border: 1px solid red;
+}
+article h1 {
+    display: none;
+}
+article h2 {
+    text-indent: -9999px;
+    display: none;    
+}
+article p span {
+    text-indent: -9999px;
+    display: none;   
+}
+article img.cover-img {
+    border: 1px solid red;
+    width: 320px;
+    height: 485px;
+    float: left;
+    padding: 0em 2em 2em 2em;
+}
+footer {
+    width: 20%;
+    border: 1px solid red;
+    margin: -431.5em 0 0 1.5em;
 }
