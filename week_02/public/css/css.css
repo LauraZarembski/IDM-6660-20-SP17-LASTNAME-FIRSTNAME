@@ -234,32 +234,38 @@ header h1 {
 header h2 {
     margin: 4em 0 0 0;
 }
-
-
-article p {
-    width: 0%;
-    border: 1px solid red;
+/* COULD NOT FIGURE OUT HOW TO USE MAIN - ADDED ID */
+#one {
+    width: 90%;
+    float: left;
+    margin: -16em 0 0 15.5em;
 }
 article h1 {
-    display: none;
+visibility: collapse;
 }
 article h2 {
-    text-indent: -9999px;
-    display: none;    
+visibility: collapse;
 }
 article p span {
-    text-indent: -9999px;
-    display: none;   
+visibility: collapse;
 }
+article p {
+visibility: collapse;
+}
+/* COULD NOT FIGURE OUT HOW TO GET THE IMAGES TO FLOAT
+(for article content tried display:none, moving off board and 
+visibility collapse) */
 article img.cover-img {
-    border: 1px solid red;
     width: 320px;
     height: 485px;
-    float: left;
+    float: right;
     padding: 0em 2em 2em 2em;
+}
+.clearfix {
+    overflow: auto;
 }
 footer {
     width: 20%;
-    border: 1px solid red;
-    margin: -431.5em 0 0 1.5em;
+    clear: both;
+    margin: -432em 0 0 1.5em;
 }
