@@ -7,9 +7,9 @@ html {
   background-color: #EBF0E5;
 }
 body {
-  max-width: 300px;
-  padding: 1em 1em 2em 1em;
+  width: 300px;
   margin: 0 auto;
+  padding: 1em 1em 2em 1em;
   background-color: white;
 }
 h1 {
