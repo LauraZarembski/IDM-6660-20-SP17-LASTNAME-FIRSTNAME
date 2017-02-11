@@ -1,3 +1,9 @@
+/* COLORS:
+grey: #303030
+
+
+*/
+
 /* YOUR CSS GOES HERE */
 html {
   font-size: 16px;
@@ -9,29 +15,36 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-	body {
-	  width: 300px;
-	  padding: 1em 1em 2em 1em;
-	  margin: 0 auto;
-	  background-color: white;
-	}
-	h1 {
-	  font-family: 'Open Sans', sans-serif;
-	  font-size: 165%;
-	  text-align: center;
-	  margin: -17% 0 0 0;
-	}
+body {
+  width: 300px;
+  padding: 1em 1em 2em 1em;
+  margin: 0 auto;
+  background-color: white;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 165%;
+  text-align: center;
+  margin: 0 0 0 0;
+}
 	h2 {
 	  font-size: 135%;
-	  margin: 1.5em 0 -.75em -.5em;
+	  margin: 1.5em 0 0em 0em;
+    border: .5px solid #5c892c;
 	}
+h3, h4 {
+  text-align: left;
+  color: #5c892c;
+	font-weight: bolder;
+}
 	a {
 	  padding: 22px;
 	  text-decoration: none;
 	}
 	li {
 	  list-style-type: none;
-	  margin: 0 0 0 -15%;
+	  margin: .25em 0 0 -15%;
+    line-height: 1.25em;
 	}
 	.nav{
 		width: 300px;
@@ -98,27 +111,98 @@ html {
 	.dropdownMenu:hover .dropdownContent {
 	  display: block;
 	}
-	#logo {
-	  margin: 4em 4em   
+.logo {
+	  margin: 4em 4em;   
 	}
-	.introduction {
-	  margin: 3.65em 0 2.5em 0;
-	}
-	p {
-	  margin: -1em 0 2.5em 0; 
-	}
-	img {
-	  margin: 0 auto;
-	}
+h1.logo {
+  width: 96%;
+  height: auto;
+  font-family: 'Cormorant Infant', serif;
+  margin: -2.5em auto 2em auto;
+}
+.introduction {
+  margin: 3.65em 0 2.5em 0;
+}
+p {
+  margin: -1em 0 2.5em 0; 
+}
+img {
+  margin: 0 auto;
+}
+
+.pricing-container  {
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+
+h3 {
+  margin: .5em 0 0 0;
+}
+.pricelist {
+  display: inline-block;
+  width: 85%;
+  margin: .125em 0 0 0;
+}
+.list {  
+  display: inline-block;  
+  width: 60%;
+}
+.price {
+  width: 48%;
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+.businessHours-container{
+  width: 100%;
+}
+.businessHours {
+  width: 86%;
+}
+.day {
+  width: 30%;
+  font-weight: bolder;
+
+}
+.hours {
+  width: 45%;
+  margin: -1.25em 4em 0 0;
+  float: right;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	table {
 	  width: 100%;
 	  margin: 1em auto;
 	}
-	th, h3 {
-	  text-align: left;
-	  color: #5c892c;
-	  font-weight: bolder;
-	}
+
 	td {
 	  padding: .25em 0;
 	}
@@ -138,7 +222,7 @@ html {
 	.socialMedia {
 	  width: 85%;
 	  margin: 0 auto;
-	  text-align: åcenter;
+	  text-align: center;
 	}
 	footer p {
 	  font-size: 75%;
