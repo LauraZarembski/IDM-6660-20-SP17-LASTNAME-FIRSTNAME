@@ -9,182 +9,139 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-body {
-  width:300px;
-  margin: 0 auto;
-  padding: 1em 1em 2em 1em;
-  background-color: white;
-}
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 165%;
-  text-align: center;
-  margin:0% 0 0 0;
-}
-h1.logo {
-  width: 96%;
-  height: auto;
-  font-family: 'Cormorant Infant', serif;
-  margin: -2.5em auto 2em auto;
-}
-h2 {
-  font-family: "Tahoma", sans-serif;
-  font-weight: 500;
-  font-size: 135%;
-  margin: 1.5em 0 -.75em -.5em;
-}
-a {
-  padding: 22px;
-  text-decoration: none;
-}
-.navigationBar {
-  position: fixed;
-  top: 0em;
-  left: 0em;
-  width: 100%;
-  background-color: #5B3A59;
-  z-index: 1000;
-}
-i {
-  display: inline-block;
-  padding: 12px;
-  position: relative;
-}
-li {
-  list-style-type: none;
-  margin: .125em 0 0 -15%;
-  line-height: 1.25em;
-}
-#dropBtn {
-  color: white;
-  font-size: 1.5em;
-  margin: 0 1.65em;
-  cursor: pointer;
-}
-#phone {
-  top: .0625em;
-  left: 30%;
-  font-size: 1.75em;
-  color: white;  
-}
-#pin {
-  top: .0625em;
-  left: 20%;
-  font-size: 1.75em;
-  color: white;
-}
-.dropdownMenu {
-  position: relative;
-  display: inline-block;
-}
-.dropdownContent {
-  display: none;
-  position: absolute;
-  top: 3em;
-  left: 2em;
-  background-color: #EBF0E5;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  width: 270%;
-  z-index: 1000;
-}
-.dropdownContent a {
-  font-weight: bolder;
-  font-size: 115%;  
-  color: #303030;
-  padding: 22px;  
-  display: block;
-  border: .25px solid #C2D3B0;
-}
-.dropdownContent a:hover {
-background-color: #ADC495
-}
-.dropdownMenu:hover .dropdownContent {
-  display: block;
-}
-
-.logo {
-  margin: 4em 4em   
-}
-.introduction {
-  margin: 3.65em 0 2.5em 0;
-}
-p {
-  margin: -1em 0 2.5em 0; 
-}
-img {
-  margin: 0 auto;
-}
-.pricing-subhead, h3 {
-  text-align: left;
-  color: #5c892c;
-  font-weight: bolder;
-}
-h4 {
-  margin: 0 0 0 0;
-}
-
-
-.pricing-container {
-  border: 1px solid orange;
-  width: 100%;
-  margin: 1em 0 0 0;
-}
-.pricelist {
-  border: 1px solid blue;
-  display: inline-block;
-  width: 86%;
-  margin: .25em 0 0 0;
-}
-.list {
-  width: 85%;
-  border: 1px solid orange;
-}
-.price {
-  border: 1px solid red;  
-  width: 20%;
-  display: inline-block;
-  text-align: right;
-  float: right;
-  margin: -1.6em 0 0 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-td {
-  padding: .25em 0;
-}
-iframe {
-  width: 100%;
-  margin: 1.5em -1.40em;
-  border: .5px solid #303030;
-}
-.cuPhone {
-  margin: -2em 0 0 -.5em;
-  font-weight: bolder;
-}
-footer {
-  margin: .5em 0 0 0;
-  border-top: .25px solid #303030;
-}
-.socialMedia {
-  width: 85%;
-  margin: 0 auto;
-  text-align: åcenter;
-}
-footer p {
-  font-size: 75%;
-  text-align: center;
-  margin: .0625em 0 0 0;
-}
-
-
-
-@media screen and (min-width: 301px) 
+	body {
+	  width: 300px;
+	  padding: 1em 1em 2em 1em;
+	  margin: 0 auto;
+	  background-color: white;
+	}
+	h1 {
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 165%;
+	  text-align: center;
+	  margin: -17% 0 0 0;
+	}
+	h2 {
+	  font-size: 135%;
+	  margin: 1.5em 0 -.75em -.5em;
+	}
+	a {
+	  padding: 22px;
+	  text-decoration: none;
+	}
+	li {
+	  list-style-type: none;
+	  margin: 0 0 0 -15%;
+	}
+	.nav{
+		width: 300px;
+		margin: 0 ay
+	}
+	.navigationBar {
+	  position: fixed;
+	  top: 0em;
+	  left: 0em;
+	  width: 100%;
+	  background-color: #5B3A59;
+	  z-index: 1000;
+	}
+	.navigationMenus {
+		width: 320px;
+		margin: 0 auto;
+	}
+	i {
+	  display: inline-block;
+	  padding: 12px;
+	  position: relative;
+	}
+	#dropBtn {
+	  color: white;
+	  font-size: 1.5em;
+	  cursor: pointer;
+	}
+	#phone {
+	  top: .125em;
+	  left: 47%;
+	  font-size: 1.75em;
+	  color: white;  
+	}
+	#pin {
+	  top: .0625em;
+	  left: 32%;
+	  font-size: 1.75em;
+	  color: white;
+	}
+	.dropdownMenu {
+	  position: relative;
+	  display: inline-block;
+	}
+	.dropdownContent {
+	  display: none;
+	  position: absolute;
+	  top: 3em;
+	  background-color: #EBF0E5;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  width: 320px;
+	  z-index: 1000;
+	}
+	.dropdownContent a {
+	  font-weight: bolder;
+	  font-size: 115%;  
+	  color: #303030;
+	  padding: 22px;  
+	  display: block;
+	  border: .25px solid #C2D3B0;
+	}
+	.dropdownContent a:hover {
+	background-color: #ADC495
+	}
+	.dropdownMenu:hover .dropdownContent {
+	  display: block;
+	}
+	#logo {
+	  margin: 4em 4em   
+	}
+	.introduction {
+	  margin: 3.65em 0 2.5em 0;
+	}
+	p {
+	  margin: -1em 0 2.5em 0; 
+	}
+	img {
+	  margin: 0 auto;
+	}
+	table {
+	  width: 100%;
+	  margin: 1em auto;
+	}
+	th, h3 {
+	  text-align: left;
+	  color: #5c892c;
+	  font-weight: bolder;
+	}
+	td {
+	  padding: .25em 0;
+	}
+	iframe {
+	  width: 100%;
+	  margin: 1.5em -1.40em;
+	  border: .5px solid #303030;
+	}
+	.cuPhone {
+	  margin: -2em 0 0 -.5em;
+	  font-weight: bolder;
+	}
+	footer {
+	  margin: .5em 0 0 0;
+	  border-top: .25px solid #303030;
+	}
+	.socialMedia {
+	  width: 85%;
+	  margin: 0 auto;
+	  text-align: åcenter;
+	}
+	footer p {
+	  font-size: 75%;
+	  text-align: center;
+	  margin: .0625em 0 0 0;
+	}
