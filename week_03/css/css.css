@@ -19,7 +19,13 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 165%;
   text-align: center;
-  margin: -17% 0 0 0;
+  margin:0% 0 0 0;
+}
+h1.logo {
+  width: 96%;
+  height: auto;
+  font-family: 'Cormorant Infant', serif;
+  margin: -2.5em auto 2em auto;
 }
 h2 {
   font-family: "Tahoma", sans-serif;
@@ -30,10 +36,6 @@ h2 {
 a {
   padding: 22px;
   text-decoration: none;
-}
-li {
-  list-style-type: none;
-  margin: 0 0 0 -15%;
 }
 .navigationBar {
   position: fixed;
@@ -47,6 +49,11 @@ i {
   display: inline-block;
   padding: 12px;
   position: relative;
+}
+li {
+  list-style-type: none;
+  margin: .125em 0 0 -15%;
+  line-height: 1.25em;
 }
 #dropBtn {
   color: white;
@@ -94,7 +101,8 @@ background-color: #ADC495
 .dropdownMenu:hover .dropdownContent {
   display: block;
 }
-#logo {
+
+.logo {
   margin: 4em 4em   
 }
 .introduction {
@@ -106,15 +114,50 @@ p {
 img {
   margin: 0 auto;
 }
-table {
-  width: 100%;
-  margin: 1em auto;
-}
-th, h3 {
+.pricing-subhead, h3 {
   text-align: left;
   color: #5c892c;
   font-weight: bolder;
 }
+h4 {
+  margin: 0 0 0 0;
+}
+
+
+.pricing-container {
+  border: 1px solid orange;
+  width: 100%;
+  margin: 1em 0 0 0;
+}
+.pricelist {
+  border: 1px solid blue;
+  display: inline-block;
+  width: 86%;
+  margin: .25em 0 0 0;
+}
+.list {
+  width: 85%;
+  border: 1px solid orange;
+}
+.price {
+  border: 1px solid red;  
+  width: 20%;
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin: -1.6em 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 td {
   padding: .25em 0;
 }

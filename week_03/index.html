@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Sans+Pro" rel="stylesheet">
+    <style>@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant');
+</style>
   </head>
 
   <body>
     <header>
-      <img src="img/aitp_logo.gif" alt="Acupuncture in the park logo" id="logo">
-      <h1>Acupuncture in the Park</h1>
+      <img src="img/aitp_logo.gif" alt="Acupuncture in the park logo" class="logo">
+      <h1 class="logo">Acupuncture in the Park</h1>
     </header>    
     <nav class="navigationBar">
       <div class="navigationMenus"></div>
@@ -53,63 +55,65 @@
       </section>   
       <section>
         <h2><i class="fa fa-caret-right" aria-hidden="true"></i>Acupuncture Pricing</h2>
-        <table>
-          <tr>
-          <th>Acupuncture for health</th>     
-          </tr>
-          <tr>
-            <td>Initial appointment:</td>
-            <td aria-dropeffect=""style="text-align:center;">$105</td>      
-          </tr>      
-          <tr>
-            <td>Follow up visits:</td>
-            <td style="text-align:center;">$80</td>      
-          </tr>   
-          <tr>
-            <td>Half-hour stress relief appointment:</td>
-            <td style="text-align:center;">$40</td>      
-          </tr>
-          <tr>
-            <td>Three half-hour stress relief appointments:</td>
-            <td style="text-align:center;">$100</td>      
-          </tr>  
-          <tr>
-         </table>
-         <table>
-          <tr>
-            <th>Cosmetic Acupuncture</th>
-          </tr>
-          <tr>
-            <td>Series of 12 visits over 6 weeks:</td>
-            <td style="text-align:center;">$95 per visit</td>      
-          </tr>
-        </table>
-        <table>        
-          <tr>
-            <th>Herbal Formulas</th>    
-          </tr>
-          <tr>
-            <td>Powdered herbs:</td>
-            <td style="text-align:center;">.30 per gram</td>      
-          </tr>   
-          <tr>
-            <td>Pills/tablets:</td>
-            <td style="text-align:center;">varies by formula</td>   
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <th>Auxiliary treatments</th>    
-          </tr>
-          <tr>
-            <td>Cupping, Electric stim, Tui Na, Bodywork, etc:</td>
-            <td style="text-align:center;">$12</td>      
-          </tr>   
-          <tr>
-            <td>Cupping only appointment:</td>
-            <td style="text-align:center;">$25</td>      
-          </tr>                 
-        </table>
+        <div class="pricing-container">
+          <h4 class="pricing-subhead">Acupunture for health</h4>
+          <ul class="pricelist">
+            <li class="list">Initial appointment:</li>
+            <li class="price">$105</li>
+          </ul>
+          <ul class="pricelist">
+            <li class="list">Follow up visits:</li>
+            <li class="price">$80</li>
+          </ul>          
+          <ul class="pricelist">
+            <li class="list">Half-hour stress relief appointment:</li>
+            <li class="price">$40</li>
+          </ul>           
+          <ul class="pricelist">
+            <li class="list">Three half-hour stress relief appointments:</li>
+            <li class="price">$100</li>
+          </ul>             
+        </div>          
+
+
+        
+        
+        
+        
+        
+        
+        
+  <!--      <div class="pricing-container">
+          <ul class="pricelist-category">
+            <li class="pricing-subhead">Cosmetic Acupuncture</li>   
+            <li>Series of 12 visits over 6 weeks:</li>   
+          </ul>  
+          <ul class="prices">          
+            <li>$95 per visit</li>
+          </ul>   
+        </div>
+        <div class="pricing-container">
+          <ul class="pricelist-category">
+            <li class="pricing-subhead">Herbal Formulas</li>   
+            <li>Powdered herbs:</li>
+            <li>Pills/tablets:</li>            
+          </ul>  
+          <ul class="prices">          
+            <li>.30 per gram</li>
+            <li>varies by formula</li>            
+          </ul>
+        </div>
+        <div class="pricing-container">
+          <ul class="pricelist-category">
+            <li class="pricing-subhead">Auxiliary treatments</li>   
+            <li>Cupping, Electric stim, Tui Na, Bodywork, etc:</li>
+            <li>Cupping only appointment:</li>            
+          </ul>  
+          <ul class="prices">          
+            <li>$12</li>
+            <li>$25</li>            
+          </ul>
+        </div>
       </section>
   
     <section>
