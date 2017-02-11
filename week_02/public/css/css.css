@@ -236,9 +236,13 @@ header h2 {
 }
 /* COULD NOT FIGURE OUT HOW TO USE MAIN - ADDED ID */
 #one {
+    border:1px solid yellow;
     width: 90%;
     float: left;
     margin: -16em 0 0 15.5em;
+}
+article {
+    border:1px solid yellow;    
 }
 article h1 {
 visibility: collapse;
@@ -250,7 +254,7 @@ article p span {
 visibility: collapse;
 }
 article p {
-visibility: collapse;
+visibility: visible;
 }
 /* COULD NOT FIGURE OUT HOW TO GET THE IMAGES TO FLOAT
 (for article content tried display:none, moving off board and 
