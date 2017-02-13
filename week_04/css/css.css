@@ -2,7 +2,6 @@
 grey: #303030
 chartreuse: #5c892c
 purple: #5b3a59
-
 */
 
 /* YOUR CSS GOES HERE */
@@ -22,6 +21,8 @@ body {
   padding: 1em .75em 2em .75em;
   margin: 0 auto;
   background-color: white;
+  border: .5px solid #5c892c;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
 }
 h1 {
   display: block;
@@ -32,7 +33,6 @@ h1 {
   padding: 0em 5em 2em 0;
   line-height: 1.25em;
 }
-
 h3, h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
@@ -41,16 +41,15 @@ h3, h4 {
 	font-weight: bolder;
   margin: 2em 0 -.65em 0;  
 }
-
-	a {
-	  padding: 22px;
-	  text-decoration: none;
-	}
-	li {
-	  list-style-type: none;
-	  margin: .25em 0 0 -15%;
-    line-height: 1.25em;
-	}
+a {
+  padding: 22px;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+  margin: .25em 0 0 -15%;
+  line-height: 1.25em;
+}
 .introduction {
   margin: -2em 0 0 0;
 }
@@ -67,12 +66,6 @@ i {
   padding: 12px;
   position: relative;
 }
-.testimonial {
-  margin: 0 0 2.25em 0;
-}
-em {
-  color: #5c892c;
-}
 
 /* NAVIGATION - referenced: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown  */
 .navigationBar {
@@ -85,14 +78,14 @@ em {
   z-index: 1000;
 }
 .navigationMenus {
-  margin: 0 0 0 3em;  
+  margin: 0 auto 0 auto;  
   width: 320px;
   height: 4em;
 }
 .dropdownMenu i {
   color: white;
   font-size: 1.8em;
-  margin: .125em 0 0 -1em;
+  margin: .125em 0 0 -.3em;
 }
 .dropdown {
   position: relative;
@@ -104,15 +97,16 @@ em {
   top: 3.35em 0 0 -3em;
   background-color: #ebf0e5;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  margin: 0 0 0 -1em;
-  width: 21em;
+  margin: 0 auto 0 auto;
+  width: 20em;
   z-index: 1000;
 }
 .dropdownContent a {
+  display: block;
   font-weight: bolder;
   font-size: 115%;  
   color: #303030;
-  margin: 0 0 0 0em;
+  margin: -.125em auto 0 auto;
   padding: 1em 0 1em 1em;  
   display: block;
   border: .25px solid #c2d3b0;
@@ -124,7 +118,7 @@ em {
   display: block;
 }
 .rightMenu {
-  margin: -3.5em 0 0 0;
+  margin: -3.5em -1em 0 0;
 }
 .rightMenu a {
   font-size: 1.75em;
@@ -253,5 +247,15 @@ footer p {
   color: #5b3a59;
 }
 
+/* SUCCESS STORIES PAGE */
+.testimonial {
+  margin: 0 0 2.75em 0;
+}
+em {
+  display: block;
+  margin: -.75em 0 0 0;
+  text-align: right;
+  color: #5c892c;
+}
 
 
