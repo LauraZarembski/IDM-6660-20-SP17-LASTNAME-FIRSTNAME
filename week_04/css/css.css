@@ -59,13 +59,12 @@ img {
 h3, H4 {
   margin: .5em 0 0 0;
 }
-	i {
-    color: white;
-	  display: inline-block;
-	  padding: 12px;
-	  position: relative;
-	}
-
+i {
+  color: white;
+  display: inline-block;
+  padding: 12px;
+  position: relative;
+}
 
 /* NAVIGATION - referenced: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown  */
 .navigationBar {
@@ -123,21 +122,9 @@ h3, H4 {
   float: right;  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* HOMEPAGE LOGO */
-.logo {
-  margin: 3.5em auto 0 auto; 
+img.logo  {
+  margin: 4em 0 0 5em; 
 }
 h1.logo {
   width: 100%;
