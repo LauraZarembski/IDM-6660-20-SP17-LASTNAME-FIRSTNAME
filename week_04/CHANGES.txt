@@ -1,0 +1,7 @@
+Things added:
+- Hours
+- Pages 3-6 were added
+- Navigation was reworked
+
+DID NOT CHANGE
+- It was requested that borders were not added to the side. I chose to leave document alone. Screen size is design for 300px wide devices.

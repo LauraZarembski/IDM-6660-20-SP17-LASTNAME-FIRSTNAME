@@ -86,13 +86,13 @@ em {
 }
 .navigationMenus {
   margin: 0 0 0 3em;  
-  width: 10em;
+  width: 320px;
   height: 4em;
 }
 .dropdownMenu i {
   color: white;
   font-size: 1.8em;
-  margin: .125em 0 0 0;
+  margin: .125em 0 0 -1em;
 }
 .dropdown {
   position: relative;
@@ -101,9 +101,10 @@ em {
 .dropdownContent {
   display: none;
   position: absolute;
-  top: 3.35em;
+  top: 3.35em 0 0 -3em;
   background-color: #ebf0e5;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin: 0 0 0 -1em;
   width: 21em;
   z-index: 1000;
 }
@@ -111,7 +112,8 @@ em {
   font-weight: bolder;
   font-size: 115%;  
   color: #303030;
-  padding: 1em 0 1em 1em ;  
+  margin: 0 0 0 0em;
+  padding: 1em 0 1em 1em;  
   display: block;
   border: .25px solid #c2d3b0;
 }
@@ -122,7 +124,7 @@ em {
   display: block;
 }
 .rightMenu {
-  margin: -4em 2.75em 0 0;
+  margin: -3.5em 0 0 0;
 }
 .rightMenu a {
   font-size: 1.75em;
