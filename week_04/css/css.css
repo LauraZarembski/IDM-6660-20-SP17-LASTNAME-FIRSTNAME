@@ -1,6 +1,7 @@
 /* COLORS:
 grey: #303030
-
+chartreuse: #5c892c
+purple: #5b3a59
 
 */
 
@@ -16,8 +17,9 @@ html {
   box-sizing: border-box;
 }
 body {
-  width: 300px;
-  padding: 1em 1em 2em 1em;
+  width: 320px;
+  height: auto;
+  padding: 1em .75em 2em .75em;
   margin: 0 auto;
   background-color: white;
 }
@@ -27,12 +29,10 @@ h1 {
   text-align: center;
   margin: 0 0 0 0;
 }
-	h2 {
-	  font-size: 135%;
-	  margin: 1.5em 0 0em 0em;
-    border: .5px solid #5c892c;
-	}
+
 h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   text-align: left;
   color: #5c892c;
 	font-weight: bolder;
@@ -46,106 +46,153 @@ h3, h4 {
 	  margin: .25em 0 0 -15%;
     line-height: 1.25em;
 	}
-	.nav{
-		width: 300px;
-		margin: 0 ay
-	}
-	.navigationBar {
-	  position: fixed;
-	  top: 0em;
-	  left: 0em;
-	  width: 100%;
-	  background-color: #5B3A59;
-	  z-index: 1000;
-	}
-	.navigationMenus {
-		width: 320px;
-		margin: 0 auto;
-	}
-	i {
-	  display: inline-block;
-	  padding: 12px;
-	  position: relative;
-	}
-	#dropBtn {
-	  color: white;
-	  font-size: 1.5em;
-	  cursor: pointer;
-	}
-	#phone {
-	  top: .125em;
-	  left: 47%;
-	  font-size: 1.75em;
-	  color: white;  
-	}
-	#pin {
-	  top: .0625em;
-	  left: 32%;
-	  font-size: 1.75em;
-	  color: white;
-	}
-	.dropdownMenu {
-	  position: relative;
-	  display: inline-block;
-	}
-	.dropdownContent {
-	  display: none;
-	  position: absolute;
-	  top: 3em;
-	  background-color: #EBF0E5;
-	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	  width: 320px;
-	  z-index: 1000;
-	}
-	.dropdownContent a {
-	  font-weight: bolder;
-	  font-size: 115%;  
-	  color: #303030;
-	  padding: 22px;  
-	  display: block;
-	  border: .25px solid #C2D3B0;
-	}
-	.dropdownContent a:hover {
-	background-color: #ADC495
-	}
-	.dropdownMenu:hover .dropdownContent {
-	  display: block;
-	}
-.logo {
-	  margin: 4em 4em;   
-	}
-h1.logo {
-  width: 96%;
-  height: auto;
-  font-family: 'Cormorant Infant', serif;
-  margin: -2.5em auto 2em auto;
-}
-.introduction {
-  margin: 3.65em 0 2.5em 0;
-}
-p {
-  margin: -1em 0 2.5em 0; 
-}
+
+
+
+
 img {
   margin: 0 auto;
 }
 
-.pricing-container  {
+
+
+h3, H4 {
+  margin: .5em 0 0 0;
+}
+	i {
+    color: white;
+	  display: inline-block;
+	  padding: 12px;
+	  position: relative;
+	}
+
+
+/* NAVIGATION - referenced: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown  */
+.navigationBar {
+  position: fixed;
+  top: 0em;
+  left: 0em;
   width: 100%;
-  margin: 1em 0 0 0;
+  height: 55px;
+  background-color: #5B3A59;
+  z-index: 1000;
+}
+.navigationMenus {
+  border: 1px solid orange;
+  margin: 0 0 0 3em;  
+  width: 21em;
+}
+.dropdownMenu i {
+  border: 1px solid red;
+  color: white;
+
+  background-color: #5b3a59;
+  font-size: 1.8em;
+}
+.dropdownMenu i:hover, .dropdownMenu i:focus {
+    background-color: #5c892c;  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdownContent {
+  display: none;
+  position: absolute;
+  top: 3.45em;
+  background-color: #EBF0E5;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width: 21em;
+  z-index: 1000;
+}
+.dropdownContent a {
+  font-weight: bolder;
+  font-size: 115%;  
+  color: #303030;
+  padding: 22px;  
+  display: block;
+  border: .25px solid #C2D3B0;
+}
+.dropdownContent a:hover {
+	background-color: #ADC495
+}
+.dropdownMenu:hover .dropdownContent {
+  display: block;
 }
 
-h3 {
-  margin: .5em 0 0 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOMEPAGE LOGO */
+.logo {
+  margin: 3.5em auto 0 auto; 
+}
+h1.logo {
+  width: 100%;
+  font-size: 200%;
+  line-height: 1.0625em;
+  font-family: 'Cormorant Infant', serif;
+  margin: 0em auto 2em auto;
+}
+
+.introduction {
+  margin: -2em 0 0 0;
+}
+
+/* ACCORDIAN */
+button.accordion {
+  margin: .5em 0 .25em 0;  
+  background-color: white;
+  color: #5c892c;
+  cursor: pointer;
+  width: 100%;
+  border: .5px solid #5c892c;
+  border-radius: 8px;
+  text-align: left;  
+  font-size: 110%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  transition: 0.4s;  
+}
+button.accordion.active, button.accordion:hover {
+  border: 2px solid #5b3a59;
+}
+button i {
+  color: #5c892c;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+/* OUR SPECIALTIES */
+
+/* ACUPUNCTURE PRICING */
+.pricing-container {
+  width: 100%;
+  margin: 1em 0 0 0;
 }
 .pricelist {
   display: inline-block;
   width: 85%;
-  margin: .125em 0 0 0;
+  margin: .125em 0 0 -.25em;
 }
 .list {  
   display: inline-block;  
-  width: 60%;
+  width: 70%;
 }
 .price {
   width: 48%;
@@ -153,6 +200,8 @@ h3 {
   text-align: right;
   float: right;
 }
+
+/* BUSINESS HOURS */
 .businessHours-container{
   width: 100%;
 }
@@ -161,71 +210,47 @@ h3 {
 }
 .day {
   width: 30%;
-  font-weight: bolder;
-
 }
 .hours {
-  width: 45%;
-  margin: -1.25em 4em 0 0;
+  width: 50%;
+  margin: -1.25em 3em 0 0;
   float: right;
   text-align: right;
 }
 
+/* CONTACT US */
+iframe {
+  width: 100%;
+  margin: 1.5em -1.40em;
+  border: 1px solid #303030;
+}
+.address {
+  margin: -2em 0 0 0;
+}
+.cuPhone {
+  margin: -1.5em 0 0 -.5em;
+  font-weight: bolder;
+}
+
+/* FOOTER */
+footer {
+  margin: 1em 0 0 0;
+  border-top: .25px solid #303030;
+}
+footer p {
+  clear: both;
+  font-size: 75%;
+  text-align: center;
+  margin: .0625em 0 0 0;
+}
+.socialMedia i {
+  margin: 0 -1.5em 0 -1.5em;
+  padding: 20px;
+  color: #5c892c;
+}
+.socialMedia i:hover {
+  color: #5b3a59;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	table {
-	  width: 100%;
-	  margin: 1em auto;
-	}
-
-	td {
-	  padding: .25em 0;
-	}
-	iframe {
-	  width: 100%;
-	  margin: 1.5em -1.40em;
-	  border: .5px solid #303030;
-	}
-	.cuPhone {
-	  margin: -2em 0 0 -.5em;
-	  font-weight: bolder;
-	}
-	footer {
-	  margin: .5em 0 0 0;
-	  border-top: .25px solid #303030;
-	}
-	.socialMedia {
-	  width: 85%;
-	  margin: 0 auto;
-	  text-align: center;
-	}
-	footer p {
-	  font-size: 75%;
-	  text-align: center;
-	  margin: .0625em 0 0 0;
-	}

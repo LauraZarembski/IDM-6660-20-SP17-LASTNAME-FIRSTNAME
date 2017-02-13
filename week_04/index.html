@@ -2,41 +2,60 @@
 
 <html class="no-js" lang="">
   <head>
-    <title>IDM 6660 SP17 Week Three</title>
+    <title>IDM 6660 SP17 Week Four</title>
+    
     <meta name="description" content="The Week Three Assignment for IDM 6660 Spring 2017">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Sans+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant" rel="stylesheet">
-</style>
   </head>
 
   <body>
     <header>
       <img src="img/aitp_logo.gif" alt="Acupuncture in the park logo" class="logo">
       <h1 class="logo">Acupuncture in the Park</h1>
-    </header>    
+    </header>
+    
     <nav class="navigationBar">
       <div class="navigationMenus">
+        
       <div class=dropdownMenu>
-        <i class="fa fa-bars" id="dropBtn" aria-hidden="true"></i>
-        <div class="dropdownContent">
+        <i onclick="myFunction()" class="fa fa-bars" aria-hidden="true" id="dropBtn"></i>
+        
+        <div class="dropdownContent" id="myDropdownContent">
           <a href="index.html">Home</a>
           <a href="index01.html">Shelly Conn</a>
           <a href="index02.html">Lynn Jaffee</a>
-          <a href="index03.html">How We Can Help You</a>   
+          <a href="index03.html">How We Can Help You</a>
+          <a href="">Acuptuncture Facts</a>
+          <a href="">How To Choose An Acupuncturist</a>
+          <a href="">Success Stories</a>
         </div>
-      </div>
-        <a href="tel:763-205-4644" alt="phone link"><i class="fa fa-phone" id="phone" aria-hidden="true" alt="phone icon"></i></a>
-        <a target="blank"href="https://goo.gl/maps/orRHz25RRws"><i class="fa fa-map-marker" id="pin" alt="icon" aria-hidden="true"></i></a>
+      </div>        
+
+        
+        
+        
+        <div class="rightMenu">        
+          <a href="tel:763-205-4644" alt="phone link"><i class="fa fa-phone" id="phone" aria-hidden="true" alt="phone icon"></i></a>
+          <a target="blank"href="https://goo.gl/maps/orRHz25RRws"><i class="fa fa-map-marker" id="pin" alt="icon" aria-hidden="true"></i></a>
         </div>
+    
     </nav>
-      <section class="introduction">
-        <p>Acupuncture in the Park is an acupuncture clinic near Minneapolis. Our staff, Shelley Conn and Lynn Jaffee offer safe, effective, and personalized treatments for a variety of conditions. Call us today for a free consultation and to see if acupuncture is right for you.</p>
-        <h2><i class="fa fa-caret-right" aria-hidden="true"></i>Our Specialties</h2>
+    
+    <section class="introduction">
+      <p>Acupuncture in the Park is an acupuncture clinic near Minneapolis. Our staff, Shelley Conn and Lynn Jaffee offer safe, effective, and personalized treatments for a variety of conditions. Call us today for a free consultation and to see if acupuncture is right for you.</p>
+    </section>
+    
+    <section>
+      <button class="accordion"><i class="fa fa-caret-right" aria-hidden="true"></i>Our Specialties</button>
+      <div class="panel">
         <ul>
           <li>Emotional Problems</li>
           <li>Pain Conditions</li>
@@ -49,11 +68,14 @@
           <li>Addictions</li>
           <li>Supportive Therapy</li>
         </ul>
-      </section>   
-      <section>
-        <h2><i class="fa fa-caret-right" aria-hidden="true"></i>Acupuncture Pricing</h2>
+      </div>   
+    </section>
+    
+    <section>       
+      <button class="accordion"><i class="fa fa-caret-right" aria-hidden="true"></i>Acupuncture Pricing</button>
+      <div class="panel">
         <div class="pricing-container">
-          <h3 class="pricing-subhead">Acupunture for health</h3>
+          <h4 class="pricing-subhead">Acupunture for health</h4>
           <ul class="pricelist">
             <li class="list">Initial appointment</li>
             <li class="price">$105</li>
@@ -72,14 +94,14 @@
           </ul>             
         </div>
         <div class="pricing-container">
-          <h3 class="pricing-subhead">Cosmetic Acupuncture</h3>
+          <h4 class="pricing-subhead">Cosmetic Acupuncture</h4>
           <ul class="pricelist">
             <li class="list">Series of 12 visits over 6 weeks</li>
             <li class="price">$95 per visit</li>
           </ul>
         </div>
         <div class="pricing-container">
-          <h3 class="pricing-subhead">Herbal Formulas</h3>
+          <h4 class="pricing-subhead">Herbal Formulas</h4>
           <ul class="pricelist">
             <li class="list">Powdered herbs</li>
             <li class="price">.30 per gram</li>
@@ -90,76 +112,127 @@
           </ul>                      
         </div>
         <div class="pricing-container">
-          <h3 class="pricing-subhead">Auxiliary treatments</h3>
+          <h4 class="pricing-subhead">Auxiliary treatments</h4>
           <ul class="pricelist">
             <li class="list">Cupping, Electric stim, Tui Na, Bodywork, etc</li>
             <li class="price">$12</li>
           </ul>
           <ul class="pricelist">
             <li class="list">Cupping only appointment</li>
-            <li class="price">$25</li>
+            <li class="price">$25</li><br><br>
           </ul>                      
-        </div>        
-      </section>
-      <section>
-        <h2><i class="fa fa-caret-right" aria-hidden="true"></i>Business Hours</h2>
-        <div class="businessHours-container">
-          <ul class="businessHours">
-            <li class="day"><b>Monday</b></li>
-            <li class="hours">8:00am - 4:00pm</li>
-          </ul>
-          <ul class="businessHours">
-            <li class="day">Tuesday:</li>
-            <li class="hours">8:00am - 4:00pm</li>
-          </ul>          
-          <ul class="businessHours">
-            <li class="day">Wednesday:</li>
-            <li class="hours">8:00am - 4:00pm</li>
-          </ul>          
-          <ul class="businessHours">
-            <li class="day">Thursday:</li>
-            <li class="hours">8:00am - 4:00pm</li>
-          </ul>           
-          <ul class="businessHours">
-            <li class="day">Friday:</li>
-            <li class="hours">8:00am - 4:00pm</li>
-          </ul>           
-          <ul class="businessHours">
-            <li class="day">Saturday:</li>
-            <li class="hours">8:00am - 4:00pm</li>
-          </ul>            
-          <ul class="businessHours">
-            <li class="day">Sunday:</li>
-            <li class="hours">Closed</li>
-          </ul>
         </div>
-      <section>
+      </div>
+    </section>
+    
+    <section>
+      <button class="accordion"><i class="fa fa-caret-right" aria-hidden="true"></i>Business Hours</button>
+      <div class="panel">
+        <ul class="businessHours">
+          <li class="day">Monday</li>
+          <li class="hours">8:00am - 4:00pm</li>
+        </ul>
+        <ul class="businessHours">
+          <li class="day">Tuesday</li>
+          <li class="hours">8:00am - 4:00pm</li>
+        </ul>          
+        <ul class="businessHours">
+          <li class="day">Wednesday</li>
+          <li class="hours">8:00am - 4:00pm</li>
+        </ul>          
+        <ul class="businessHours">
+          <li class="day">Thursday</li>
+          <li class="hours">8:00am - 4:00pm</li>
+        </ul>           
+        <ul class="businessHours">
+          <li class="day">Friday</li>
+          <li class="hours">8:00am - 4:00pm</li>
+        </ul>           
+        <ul class="businessHours">
+          <li class="day">Saturday</li>
+          <li class="hours">8:00am - 4:00pm</li>
+        </ul>            
+        <ul class="businessHours">
+          <li class="day">Sunday</li>
+          <li class="hours">Closed</li>
+        </ul>
+      </div>
+    <section>
 
     <section>
-      <h2><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</h2>
-      <a target="blank"href="https://goo.gl/maps/orRHz25RRws">
+      <button class="accordion"><i class="fa fa-caret-right" aria-hidden="true"></i>Contact Us</button>
+      <div class="panel">
+        <a target="blank"href="https://goo.gl/maps/orRHz25RRws">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.62287151601!2d-93.38547592004794!3d44.97165647920059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b3351e4616cef7%3A0xf7200d3dc2b6efea!2s8085+Wayzata+Blvd%2C+Golden+Valley%2C+MN+55426!5e0!3m2!1sen!2sus!4v1486312034995" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </a>
-      <div class="address">
-        <p>8085 Wayzata Boulevard - Ste. 100 A<br>      
-        Minneapolis, MN 55426</p>
-        <a href="tel:763-205-4644" alt="phone link">
-        <h3 class="cuPhone"><i class="fa fa-caret-right" aria-hidden="true"></i>763-205-4644</h3></a>
+        </a>
+        <div class="address">
+          <p>8085 Wayzata Boulevard - Ste. 100 A<br>      
+          Minneapolis, MN 55426</p>
+          <a href="tel:763-205-4644" alt="phone link">
+          <h3 class="cuPhone"><i class="fa fa-caret-right" aria-hidden="true"></i>763-205-4644</h3></a>
+        </div>
       </div>
     </section>
 
     <footer>
       <div class="socialMedia">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-        <i class="fa fa-google-plus" aria-hidden="true"></i>
-        <i class="fa fa-rss" aria-hidden="true"></i>
+        <a href="https://www.facebook.com/share.php?u=http%3A%2F%2Facupunctureinthepark.com%2F&t=Home">
+          <i class="fa fa-facebook" aria-hidden="true" ></i>
+        </a>
+        <a href="https://twitter.com/login?redirect_after_login=%2Fhome%3Fstatus%3DHome%2520-%2520http%253A%252F%252Facupunctureinthepark.com%252F%2520">   
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle mini=true&url=http%3A%2F%2Facupunctureinthepark.com%2F&title=Home&source=Acupuncture+in+the+Park+-+Acupuncture+and+Chinese+Medicine+in+MN&summary=Acupuncture+is%0D%0ASafe%2C+Effective%2C+Natural+and+Drug-Free+%0D%0AAt+Acupuncture+in+the+Park%2C+we%27re+here+to+help+you.%C2%A0+We+take+the+time+to+understand%C2%A0what+you+need%C2%A0and+develop+a+personally+tailored+plan--one+that+will+help+you+feel+better+fast.+%C2%A0We%C2%A0will">        
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Facupunctureinthepark.com%2F&media=http%3A%2F%2Facupunctureinthepark.com%2Fwp-content%2Fuploads%2Fcontactbutton.gif&description=Acupuncture%20is%0D%0ASafe%2C%20Effective%2C%20Natural%20and%20Drug-Free%20%0D%0AAt%20Acupuncture%20in%20the%20Park%2C%20we're%20here%20to%20help%20you.%C2%A0%20We%20take%20the%20time%20to%20understand%C2%A0what%20you%20need%C2%A0and%20develop%20a%20personally%20tailored%20plan--one%20that%20will%20help%20you%20feel%20better%20fast.%20%C2%A0We%C2%A0will">
+          <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+        </a>
+        <a href="https://plus.google.com/up/accounts/upgrade/?continue=https://plus.google.com/share?url%3Dhttp://acupunctureinthepark.com/">
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+        </a>
+        <a href="feed://acupunctureinthepark.com/feed/">  
+          <i class="fa fa-rss" aria-hidden="true"></i>
+        </a> 
       </div>
       <p>© 2017 - Laura Zarembski - Case Study</p>
     </footer>
   </body>
 </html>
 
+      
+<script>
+/* NAVIGATION - referenced: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown  */  
+function myFunction() {
+  document.getElementById("myDropdownContent").classList.toggle("show");
+}  
+window.onclick = function(event) {
+if
+  (!event.target.matches('.dropBtn')) {
+    var dropdowns =        document.getElementByClassName("dropdownContent");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if(openDropdown.classList.contains ('show')) {
+        OpenDropdown.classList.remove('show');
+      }
+    }
+  }
+}  
+  
 
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+  	  panel.style.maxHeight = null;
+    } else {
+  	  panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>
