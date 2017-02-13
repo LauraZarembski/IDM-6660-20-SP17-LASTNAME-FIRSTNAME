@@ -74,23 +74,18 @@ h3, H4 {
   left: 0em;
   width: 100%;
   height: 55px;
-  background-color: #5B3A59;
+  background-color: #5b3a59;
   z-index: 1000;
 }
 .navigationMenus {
-  border: 1px solid orange;
   margin: 0 0 0 3em;  
-  width: 21em;
+  width: 10em;
+  height: 4em;
 }
 .dropdownMenu i {
-  border: 1px solid red;
   color: white;
-
-  background-color: #5b3a59;
   font-size: 1.8em;
-}
-.dropdownMenu i:hover, .dropdownMenu i:focus {
-    background-color: #5c892c;  
+  margin: .125em 0 0 0;
 }
 .dropdown {
   position: relative;
@@ -99,8 +94,8 @@ h3, H4 {
 .dropdownContent {
   display: none;
   position: absolute;
-  top: 3.45em;
-  background-color: #EBF0E5;
+  top: 3.35em;
+  background-color: #ebf0e5;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   width: 21em;
   z-index: 1000;
@@ -109,17 +104,24 @@ h3, H4 {
   font-weight: bolder;
   font-size: 115%;  
   color: #303030;
-  padding: 22px;  
+  padding: 1em 0 1em 1em ;  
   display: block;
-  border: .25px solid #C2D3B0;
+  border: .25px solid #c2d3b0;
 }
 .dropdownContent a:hover {
-	background-color: #ADC495
+	background-color: #adc495
 }
 .dropdownMenu:hover .dropdownContent {
   display: block;
 }
-
+.rightMenu {
+  margin: -4em 2.75em 0 0;
+}
+.rightMenu a {
+  font-size: 1.75em;
+  padding: .14em .125em .125em .125em;
+  float: right;  
+}
 
 
 
